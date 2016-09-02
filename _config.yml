@@ -2,13 +2,14 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
-title: emila
-subtitle:
-description:
-author: emila
-language:
-timezone:
+# Site #站点配置
+title: emila  #网站标题
+subtitle: simple and easy to study #网站副标题
+description:  #网栈描述
+author: emila  #你的名字
+language: zh-CN #网站使用的语言
+timezone: #网站时区。Hexo 预设使用您电脑的时区。时区列表
+
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
