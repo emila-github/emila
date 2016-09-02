@@ -341,7 +341,17 @@ more以上内容即是文章摘要，在主页显示，more以下内容点击『
 	fb_admins:
 	fb_app_id:
 
+## Hexo主题安装 ##
+
+Execute the following command, and modify theme in _config.yml to theme-name
+
+	$ git clone <repository> themes/<theme-name>
+	//ex: 
+	$ git clone https://github.com/henryhuang/oishi.git themes/oishi
+
 
 ## 参考资料 ##
 - [Hexo 3.0 静态博客使用指南](http://www.tuicool.com/articles/Jva2iaA)
 - [简洁轻便的博客平台: Hexo详解](http://www.tuicool.com/articles/ueI7naV)
+- [使用的主题](https://github.com/dwqs/nx)
+- [皮肤](https://github.com/hexojs/hexo/wiki/Themes)
