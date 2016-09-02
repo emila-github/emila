@@ -235,6 +235,28 @@ more以上内容即是文章摘要，在主页显示，more以下内容点击『
 	hexo d #开始部署
 
 
+`hexo g` 在本地目录下，会生成一个public的目录，里面包括了所有静态化的文件。
+
+生成静态文件之后，如果要发布到github，还需要配置 deploy 指令。在全局的配置文件中找到 deploy ： 
+
+	# Deployment
+	## Docs: http://hexo.io/docs/deployment.html
+	deploy:
+	type: git
+	repo: https://github.com/dwqs/dwqs.github.io.git
+	branch: master   
+
+这需要安装 hexo-deployer-git ：
+
+	npm install hexo-deployer-git --save-dev
+
+最后利用hexo指令发布到github：
+
+	hexo d
+	//same as
+	hexo deploy
+
+
 ## Hexo常用插件安装与配置 ##
 
 安装首页文章数量 存档 分类 的插件

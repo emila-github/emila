@@ -69,4 +69,6 @@ theme: oishi
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/emila-github/emila-github.github.io
+  branch: master
