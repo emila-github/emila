@@ -13,7 +13,7 @@ timezone: #网站时区。Hexo 预设使用您电脑的时区。时区列表
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://emila-github.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
