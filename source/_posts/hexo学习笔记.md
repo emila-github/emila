@@ -198,11 +198,8 @@ description: #你对本页的描述 可以省略
 
 多标签注意语法格式 如下:
 
-	tags:
-	    - 标签1
-	    - 标签2
-	    - 标签3
-	    - etc...
+	tags: [标签1,标签2,标签3]
+
 
 想在首页文章预览添加图片可以添加photo参数 这个fancybox可以省略 如下:
 	
@@ -346,8 +343,10 @@ more以上内容即是文章摘要，在主页显示，more以下内容点击『
 Execute the following command, and modify theme in _config.yml to theme-name
 
 	$ git clone <repository> themes/<theme-name>
-	//ex: 
+	//ex1: 
 	$ git clone https://github.com/henryhuang/oishi.git themes/oishi
+    //ex2:
+ 	$ git clone https://github.com/emila-github/pacman.git themes/pacman
 
 
 ## 参考资料 ##
