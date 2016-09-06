@@ -84,6 +84,10 @@ tags: [git]
 
     git push origin <branch>
 
+拉取远程分支
+
+	git checkout -b <本地分支名> origin/<远程分支名>
+
 
 ## 更新与合并 ##
 
