@@ -360,3 +360,4 @@ Execute the following command, and modify theme in _config.yml to theme-name
 - [使用的主题](https://github.com/dwqs/nx)
 - [皮肤](https://github.com/hexojs/hexo/wiki/Themes)
 - [Hexo Docs](http://www.ituring.com.cn/article/199295)
+- [hexo-your-blog](http://ibruce.info/2013/11/22/hexo-your-blog/)
