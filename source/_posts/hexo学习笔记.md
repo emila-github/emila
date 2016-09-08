@@ -30,9 +30,14 @@ Hexo的官方网站 [http://hexo.io](http://hexo.io) 就是托管于github的pag
 
 - scaffolds 工具模板 scripts hexo的功能js
 > scaffolds ：模板文件夹，新建文章时，Hexo 会根据 scaffold 来建立文件。Hexo 有三种默认布局： post 、 page 和 draft ，它们分别对应不同的路径。新建文件的默认布局是 post ，可以在配置文件中更改布局。用 draft 布局生成的文件会被保存到 source/_drafts 文件夹。
+> 
+> 假如执行 hexo new photo "My Gallery" ，Hexo会尝试在scaffolds目录中去寻找photo.md的模版文件，然后基于它创建标题为My Gallery的文章。
 
 - source 博客资源文件夹
 - source/_drafts 草稿文件夹
+
+> Hexo提供草稿功能，在 _drafts 目录下的文章不会发表到网站上，你可以通过命令 hexo publish [layout] <title发布你的草稿，改命令会将文章移到 _posts 目录下。但是也可以设置 _config.yml 配置文件的 render_drafts 字段，使草稿默认发布到站点中。
+
 - source/_posts 文章文件夹
 > source/_post ：文件箱。（低版本的hexo还会存在一个 _draft ，这是草稿箱）除 _posts 文件夹之外，开头命名为 _ (下划线)的文件/ 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去
 
@@ -354,3 +359,5 @@ Execute the following command, and modify theme in _config.yml to theme-name
 - [简洁轻便的博客平台: Hexo详解](http://www.tuicool.com/articles/ueI7naV)
 - [使用的主题](https://github.com/dwqs/nx)
 - [皮肤](https://github.com/hexojs/hexo/wiki/Themes)
+- [Hexo Docs](http://www.ituring.com.cn/article/199295)
+- [hexo-your-blog](http://ibruce.info/2013/11/22/hexo-your-blog/)
