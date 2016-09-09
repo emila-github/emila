@@ -21,6 +21,7 @@ tags: [git]
 	#https://zhangsan:123456@github.com 
 
 保存 ，添加config项 ，在任意文件夹下右键进入 git bash ，然后输入： 
+
 	git config --global credential.helper store 
 
 执行完后去查看 C:\Documents and Settings\Administrator\.gitconfig 这个文件，发现多了一项： 
