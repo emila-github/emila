@@ -224,7 +224,7 @@ Mocha默认运行test子目录里面的测试脚本。所以，一般都会把�
 
 使用[mochawesome](http://adamgruber.github.io/mochawesome/)模块，可以生成漂亮的HTML格式的报告。  （这个格式不知道怎么跑）
 
-
+![](http://i.imgur.com/gTBnQ1J.png)
 
 	$ npm install --save-dev mochawesome
 	$ ../node_modules/.bin/mocha --reporter mochawesome
@@ -241,6 +241,8 @@ Mocha默认运行test子目录里面的测试脚本。所以，一般都会把�
 
 	 $ mocha --growl
 
+
+![](http://i.imgur.com/u9fMszZ.png)
 
 ### --watch，-w ###
 
@@ -525,7 +527,7 @@ Mocha在`describe`块之中，提供测试用例的四个钩子：`before()`、`
 
 除了在命令行运行，Mocha还可以在浏览器运行。
 
-
+![](http://i.imgur.com/Re4IpWy.png)
 
 首先，使用`mocha init`命令在指定目录生成初始化文件。
 
@@ -594,6 +596,8 @@ Mocha在`describe`块之中，提供测试用例的四个钩子：`before()`、`
 ## 生成规格文件 ##
 
 Mocha支持从测试用例生成规格文件。
+
+![](http://i.imgur.com/uLKMfZg.png)
 
 进入[demo09](https://github.com/ruanyf/mocha-demos/tree/master/demo09)子目录，运行下面的命令。
 
