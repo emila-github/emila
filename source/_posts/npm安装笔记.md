@@ -1,7 +1,7 @@
 ---
 title: npm安装笔记
 date: 2016-12-15 14:38:24
-tags:[node, npm]
+tags: [node, npm]
 ---
 
 # npm安装 #
