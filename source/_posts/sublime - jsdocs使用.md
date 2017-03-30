@@ -1,7 +1,7 @@
 ---
 title: sublime-jsdocs 的使用
 date: 2016-09-02 20:42:05
-tags: [sublime,jsdocs]
+tags: [Sublime Text,jsdocs]
 ---
 ## sublime-jsdocs 的使用 ##
 
