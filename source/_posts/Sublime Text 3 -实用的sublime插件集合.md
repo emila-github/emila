@@ -100,6 +100,29 @@ https://sublime.wbond.net/packages/DocBlockr
 - 功能：一款集成了格式化（美化）html、css、js三种文件类型的插件
 
 
+## Bracket Highlighter ##
+
+- 功能：高亮各种括号的起始和结尾
+- 
+## AdvancedNewFile ##
+
+- 功能：
+	快速创建文件，快捷键 `ctrl+alt+n`
+
+	默认情况下文件会存储在当前目录，如果当前没有目录，会存储在用户的根目录
+
+## LiveStyle ##
+
+- 功能：
+	- 开启一种实时编辑体验的开发插件
+	- 	支持Chrome浏览器，还支持Safari浏览器
+	- 	实时进行CSS调试插件工具
+	- 	当你在文本编辑器中打字的时候，(LiveStyle)即时同步更新网页，不用等到文件- - 	保存或者页面预加载。并且LiveStyle是第一个能够将在浏览器开发工具栏的变化以正确的方式同步更新到源代码中
+
+	
+
+
+
 
 ## 参考资料 ##
 
